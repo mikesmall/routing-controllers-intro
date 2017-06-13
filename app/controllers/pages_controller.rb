@@ -15,4 +15,11 @@ class PagesController < ApplicationController
     @header = "Contest"
   end#contest
 
-end
+  def kitten
+    # render :kitten
+    @header = "Kitten"
+    requested_size = params[:size]
+    @kitten_url = "http://lorempixel.com/#{requested_size}/#{requested_size}/cats"
+  end#kitten
+
+end#PagesController
