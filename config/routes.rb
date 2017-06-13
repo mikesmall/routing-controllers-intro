@@ -5,6 +5,6 @@ Rails.application.routes.draw do
 
   get '/welcome' => 'pages#welcome'
 
+  get '/about' => 'pages#about'
 
-
-end#Rails.application.routes.draw do 
+end#Rails.application.routes.draw do
