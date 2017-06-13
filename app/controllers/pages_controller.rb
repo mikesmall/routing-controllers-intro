@@ -8,4 +8,8 @@ class PagesController < ApplicationController
     render :about
   end#about
 
+  def contest
+    render :contest
+  end#contest 
+
 end
